@@ -65,7 +65,6 @@ if level == 1:
         st.pyplot(fig)
 
 elif level == 2:
-    st.header('2학년 실험 주제')
     experiment = st.radio("실험 선택", ["운동량 보존 법칙", "옴의 법칙"])
 
     if experiment == "운동량 보존 법칙":
