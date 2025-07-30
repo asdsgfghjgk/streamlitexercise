@@ -65,7 +65,7 @@ if level == 1:
         st.pyplot(fig)
 
 elif level == 2:
-    if experiment == "운동량 보존 법칙":
+    if experiment == "운동량 보존":
         st.subheader("운동량 보존 시뮬레이션")
 
         # 입력값
